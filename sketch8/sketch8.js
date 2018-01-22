@@ -1,3 +1,5 @@
+var walker;
+
 function setup() {
     createCanvas(1200, 1200);
     background(255);
