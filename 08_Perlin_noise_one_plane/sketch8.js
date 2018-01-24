@@ -10,6 +10,6 @@ function draw() {
     fill(0, 15);
     rect(0, 0, width, height);
 
-    walker.render();
     walker.step();
+    walker.render();
 }
