@@ -13,7 +13,7 @@ function draw() {
     x = x + xSpeed;
 
     //Check to see if the position is off the canvas
-    if ((x > width || x < 0)) {
+    if ((x + 24 > width || x - 24 < 0)) {
         xSpeed = xSpeed * -1;
     }
 
