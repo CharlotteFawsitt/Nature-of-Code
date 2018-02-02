@@ -22,7 +22,7 @@ function draw() {
         ySpeed = ySpeed * -1;
     }
 
-    //Display a circle at the x position
+    //Display a circle at the x and y position
     stroke(0);
     strokeWeight(2);
     fill(127);
