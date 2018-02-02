@@ -21,7 +21,7 @@ function draw() {
     x = x + xSpeed;
 
     //Check to see if the position is off the canvas
-    if ((x > width || x < 0)) {
+    if ((x + 24 > width || x - 24 < 0)) {
         xSpeed = xSpeed * -1;
     }
 
@@ -32,3 +32,4 @@ function draw() {
     ellipse(x, 180, 48, 48);
 }
 ````
+By adding half the diameter to the x and checking it is less than the width we can make the edge of the ball bounce off the edge instead of the center.
