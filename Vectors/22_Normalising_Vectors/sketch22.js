@@ -12,11 +12,9 @@ function draw() {
     //create a vector line by subtracting the center vector from the mouse vector
     var vectorLine = mouse.sub(center);
 
-    //create a rectangle for the magnitude of the vector
-    var m = vectorLine.mag();
-    fill(255);
-    stroke(0);
-    rect(0, 0, m, 20);
+    //normalise the vector to 1
+    vectorLine.normalize();
+    vectorLine.mult(50);
 
     //translate to the center
     translate(width / 2, height / 2);
