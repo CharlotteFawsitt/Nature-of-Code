@@ -8,7 +8,7 @@ This section covers: Vectors
 3. [Vector: 2 Directions Using Vectors](17_Moving_a-ball_using_vectors)
 4. [Vector: Addition](18_Adding_Vectors)
 5. [Vector: Subtraction](19_Subtraction_Vectors)
-6. [Vector: Division/Multiplication](MultiplyingDividing_Vectors)
+6. [Vector: Multiplication/Division](20_MultiplyingDividing_Vectors)
 7. [Vector: Magnitude](21_Vector_Magnitude)
 8. [Vector: Normalising](22_Normalising_Vectors)
 9. [Vector: Velocity](23_Mover_Velocity)
