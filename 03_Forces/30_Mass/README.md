@@ -1,6 +1,6 @@
 # Mass
 
-Objects with different mass will be affected by forces differently. A heavier object will be affected by gravity much more than a light object. The opposite is true for wind. A light object will move much more with wind than a heavy object.
+Objects with different mass will be affected by forces differently. A light object will move much more with wind than a heavy object.
 
 For this we need to modify the class to take in a parameter.
 ```js
@@ -25,4 +25,4 @@ this.applyForce = function(force) {
 }
 ```
 
-By using a variable we can use a static function so as not to change the value of force. We divide force by the mass. Then add this to the acceleration. 
+By using a variable we can use a static function so as not to change the value of force. We divide force by the mass. Then add this to the acceleration.
