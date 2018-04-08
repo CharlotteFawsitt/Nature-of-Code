@@ -3,5 +3,5 @@
 To apply friction we need to use the formula for friction which is as follows
 ```
 Friction
-= − µNv&‌#770
+= − µNhat{v}
 ```
